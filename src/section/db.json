@@ -1,0 +1,10 @@
+{
+  "users": [
+    {
+      "email": "guest@email.com",
+      "password": "123",
+      "id": 1
+    }
+  ],
+  "appointment": []
+}

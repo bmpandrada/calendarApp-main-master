@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(23, 24, 26);
+    background-color: rgb(255, 255, 255);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.text-message{
+  width: auto;
+  display: flex;
+  
+}
+
+.btn button{
+  display: flex;
+  margin: 0.25em 0.25em;
+}
+.container{
+ width:100%;
+margin: 0 auto;
+}
+.containerData{
+  width: 100%;
+  box-sizing: border-box;
+
+}
+table{
+  text-align: center;
+  color: wheat;
+  width: 100%;
+  padding: 0.25em;
+}
+
+.control-details{
+display: flex;
+justify-content: space-around;
+}
+.title{
+  margin-bottom: .5em;
+  text-align: center;
+  grid-area: 1/2;
+  align-self: end;
+  margin-top: 3.5em;
+}
+.form{
+  justify-items: stretch;
+  align-self: stretch;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  padding: 1.5rem 2rem;
+  border-radius: 5px;
+  max-width: 450px;
+  background: rgb(120, 160, 219);
+  place-self: center stretch;
+}
+
+.form-control {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  align-items: center;
+}
+
+
+.form input, textarea, select  {
+  border-color: transparent;
+  border-radius: 3px;
+  margin: .25em 0;
+}
+li{
+  display: block;
+}
+
